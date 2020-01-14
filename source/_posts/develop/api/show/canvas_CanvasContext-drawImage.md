@@ -7,7 +7,10 @@ sidebar: canvas_CanvasContext-drawImage
 
  
 
-> 使用顺序：drawImage(imageResource, dx, dy, dWidth, dHeight, sx, sy, sWidth, sHeight)
+> 三种使用方式：
+  drawImage(imageResource, dx, dy)
+  drawImage(imageResource, dx, dy, dWidth, dHeight)
+  drawImage(imageResource, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
 
 **解释**：绘制图像到画布。
 
@@ -21,12 +24,12 @@ sidebar: canvas_CanvasContext-drawImage
 | `imageResource`|String|是|| 所要绘制的图片资源 。|
 | `dx`| Number|是||  图像的左上角在目标 canvas 上 X 轴的位置。|
 | `dy `| Number|是||  图像的左上角在目标 canvas 上 Y 轴的位置 。 |
-| `dWidth`| Number|是||   在目标画布上绘制图像的宽度，允许对绘制的图像进行缩放 。 |
-| `dHeight`| Number|是||  在目标画布上绘制图像的高度，允许对绘制的图像进行缩放 。 |
-| `sx`| Number|是||  源图像的矩形选择框的左上角 X 坐标。 |
-| `sy`| Number|是||  源图像的矩形选择框的左上角 Y 坐标。 |
-| `sWidth`| Number|是||  源图像的矩形选择框的宽度 。|
-| `sHeight`| Number|是||   源图像的矩形选择框的高度 。|
+| `dWidth`| Number|否||   在目标画布上绘制图像的宽度，允许对绘制的图像进行缩放 。 |
+| `dHeight`| Number|否||  在目标画布上绘制图像的高度，允许对绘制的图像进行缩放 。 |
+| `sx`| Number|否||  源图像的矩形选择框的左上角 X 坐标。 |
+| `sy`| Number|否||  源图像的矩形选择框的左上角 Y 坐标。 |
+| `sWidth`| Number|否||  源图像的矩形选择框的宽度 。|
+| `sHeight`| Number|否||   源图像的矩形选择框的高度 。|
 
 ## 示例
 
