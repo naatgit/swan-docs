@@ -8,7 +8,7 @@ webUrl: https://qft12m.smartapps.cn/component/image/image
 
 
 
-**解释**：图片，image 组件默认宽度 300px、高度 225px。
+**解释**：图片，支持 JPG、PNG、SVG、GIF 等格式，暂不支持WEBP格式。image 组件默认宽度 300px、高度 225px。
 
 ##  属性说明 
 
